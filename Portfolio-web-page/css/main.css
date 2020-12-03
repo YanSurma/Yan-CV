@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    color:black;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul,li {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto; 
+    /* расположение обьекта по центру */
+    
+
+}
+
+.header {
+    background-color: green; /* цвет фона обьекта */
+    width: 1920px;
+    height: 0px;
+}
+
+header a {
+    color:#828282;
+}
+
+.menu {
+    display: flex; /* Все элементы внутри этого обьекта выровнялись в одну линию */
+}
+
+.menu li a {
+text-decoration: none; /* Убрано подчеркивание текста,которое дает teg "a"(ссылка) */
+line-height: 30px;
+font-size: 18px;
+
+}
+
+.menu li {
+margin-right: 155px;  /* Сдвиг каждого отдельного элемента меню влево на 155 пикс */
+}
+
+.nav {
+    justify-content:space-between; 
+    display:flex;
+    align-items: center;
+    margin-top: 33px;
+
+}
+
+/* display:flex; Свойство при помощи которого все элементы распространились по строке. Выровнялись по одной строке. */
+/* margin-left:auto; Обьект прилипнет к правому краю  */
+/* align-items:center  все обьекты на одной линии */
+
+.border {
+border: 1px solid #828282;
+transform: matrix(1, 0, 0, 1, 0, 0);
+position: absolute;
+width: 950px;
+height: 0px;
+left: 485px;
+top: 88px;
+margin: 0 auto; 
+}
+
+
+
+
+
+.boxtext {
+margin-top: 128px;  
+
+}
+
+
+.boxtext p {
+text-align:center;   
+font-size: 18px;
+}
+
+.boxtext h3 {
+text-align:right;
+}  
+        
+           
+.boxtext h2 {
+text-align:left; 
+font-size:48px;
+}
+
+
+
+.aboutme {
+margin-top:224px;
+text-align:center;
+}
+
+.aboutme p {
+font-size:18x;
+}
+    
+
+.aboutme h2 {
+font-size: 34px;
+}
+
+
+.skills  {
+margin-top: 198px;
+text-align:center; 
+}
+
+
+
+.skills p {
+font-size:18px;
+margin-bottom: 84px;
+}
+
+.skills h2 {
+margin-bottom: 70px;
+font-size:34px;
+}
+
+.galleryprog {
+justify-content:space-between;  
+display: flex;
+margin:0 auto;
+width: 950px;
+}
+
+
+
+.stars{
+justify-content:space-between;  
+display: flex;
+margin:0 auto;
+width: 980px;
+}
+
+
+.stars1{
+}
+
+
+
+
+.stars2{
+}
+
+
+
+.stars3{
+}
+
+
+
+.Port {
+justify-content:space-between;  
+margin:0 auto;
+width: 950px;   
+}
+
+.Port h2 {
+padding-top: 230px;
+text-align:center;
+font-size:34px;
+padding-bottom:47px;
+}
+
+
+.Port a {
+padding-bottom: 100px;
+text-align:center;
+color: black;
+font-size:18px;
+}
+
+.reebok {
+justify-content:space-between;  
+margin:0 auto;
+width: 950px;  
+}
+
+.reebok a {
+padding-top: 50px;
+text-align:center;
+color: black;
+font-size:18px;
+}
+
