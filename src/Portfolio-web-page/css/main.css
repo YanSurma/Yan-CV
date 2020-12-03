@@ -27,9 +27,10 @@ ul,li {
 }
 
 .header {
-    background-color: green; /* цвет фона обьекта */
-    width: 1920px;
-    height: 0px;
+background-color: green; /* цвет фона обьекта */
+width: 1920px;
+height: 0px;
+margin:0 auto;
 }
 
 header a {
@@ -150,53 +151,54 @@ width: 980px;
 }
 
 
-.stars1{
-}
-
-
-
-
-.stars2{
-}
-
-
-
-.stars3{
-}
-
-
-
 .Port {
+padding-top: 230px;
 justify-content:space-between;  
 margin:0 auto;
 width: 950px;   
+text-align:center;
 }
 
 .Port h2 {
-padding-top: 230px;
-text-align:center;
 font-size:34px;
 padding-bottom:47px;
 }
 
 
 .Port a {
-padding-bottom: 100px;
-text-align:center;
 color: black;
 font-size:18px;
 }
 
 .reebok {
+padding-top: 100px;
 justify-content:space-between;  
 margin:0 auto;
 width: 950px;  
+text-align:center;
 }
 
 .reebok a {
-padding-top: 50px;
-text-align:center;
 color: black;
 font-size:18px;
 }
+
+.braun {
+padding-top: 100px;
+}
+
+.galleryt {
+justify-content:space-between;  
+display: flex;
+margin:0 auto;
+width: 950px;  
+padding-top:80px ;
+padding-bottom:45px ;
+}
+
+.Contacts {
+margin-top:210px;
+text-align: center;    
+}
+
 
